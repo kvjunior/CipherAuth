@@ -1,0 +1,82 @@
+01r2: PASS
+cea_integration: PASS
+02E: PASS
+02F_manifest: PASS
+02F: PASS
+02G_manifest: PASS
+02G: PASS
+02H_manifest: PASS
+02H: PASS
+02A_historical_tests: PASS
+02A_historical_experiment: PASS
+02B_historical_tests: PASS
+02B_historical_experiment: PASS
+02C_historical_tests: PASS
+02C_historical_experiment: PASS
+02D_historical_tests: PASS
+02D_historical_experiment: PASS
+bridge: PASS
+class_decryption_probe: PASS
+ct_unweighted_probe: PASS
+checkpoint_coefficient_probe: PASS
+{
+  "02E_through_02H_results_byte_identical": true,
+  "additional_research_probes": 3,
+  "checks": {
+    "flattened_snapshot_files": {
+      "02F": 22,
+      "02G": 25,
+      "cea": 85
+    },
+    "frozen_games_identical": true,
+    "proof_kernel_copies_identical": true,
+    "python_files_compiled": 123
+  },
+  "complete_protocol": false,
+  "current_test_count": 181,
+  "errors": 0,
+  "failures": 0,
+  "functional_chain": "CEA sender -> 02F compressed intake -> proxy -> CEA wire -> delegatee opening",
+  "historical_diagnostics": {
+    "02A": 4,
+    "02B": 4,
+    "02C": 3,
+    "02D": 5
+  },
+  "historical_test_count": 16,
+  "implemented_batches": [
+    "01r2",
+    "02A",
+    "02B",
+    "02C",
+    "02D",
+    "02E",
+    "02F",
+    "02G",
+    "02H"
+  ],
+  "missing": [
+    "02I adaptive challenge timing",
+    "full AGM/game transfer",
+    "final reduction and loss",
+    "novelty decision"
+  ],
+  "security_proved": false,
+  "skipped": 0,
+  "status": "PASS",
+  "total_unique_test_count": 197,
+  "trace_replays": {
+    "02G": 12,
+    "02H": 13
+  },
+  "unique_current_tests": {
+    "01r2": 29,
+    "02E": 13,
+    "02F": 34,
+    "02G": 23,
+    "02H": 27,
+    "CEA_integration": 2,
+    "CEA_unit": 39,
+    "bridge": 14
+  }
+}
